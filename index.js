@@ -1,9 +1,4 @@
-const express = require('express')
-
-const server= express()
-server.use(express.json())
-
-server.use('/', router)
+const server= require('./api/server');
 
 
 const port = 4400;
