@@ -2,6 +2,10 @@
   "name": "db-recipe-book",
   "version": "1.0.0",
   "main": "index.js",
+"scripts": {
+  "start": " node index.js",
+  "server": "nodemon index.js"
+},
   "repository": "https://github.com/samjeffcoat/db-recipe-book.git",
   "author": "samjeffcoat <samjeffcoat@gmail.com>",
   "license": "MIT",
